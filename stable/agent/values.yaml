@@ -154,6 +154,12 @@ rbac:
           - create
           - update
 
+horizontalPodAutoscaler:
+  enabled: false
+  types: []
+  minReplicas: null
+  maxReplicas: null
+
 podDisruptionBudget:
   enabled: false
   maxUnavailable: 1
